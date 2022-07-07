@@ -1,0 +1,61 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.stage {
+    text-align: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(54, 214, 171);
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+body {
+    background-color: black;
+}
+
+.o {
+    position: relative;
+}
+
+.o::after {
+    content: "\1F409";
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.x {
+    position: relative;
+}
+
+.x::after {
+    content: "\1F9D9";
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+button {
+    padding: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(54, 214, 171);
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
